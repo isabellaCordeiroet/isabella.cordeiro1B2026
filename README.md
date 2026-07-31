@@ -1,64 +1,107 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Blog do Bob Esponja</title>
-  <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bob Esponja</title>
+
+<style>
+body{
+    margin:0;
+    font-family:Arial, sans-serif;
+    background:#6fd3ff;
+}
+
+header{
+    background:#ffd93d;
+    text-align:center;
+    padding:25px;
+}
+
+main{
+    max-width:900px;
+    margin:30px auto;
+    background:white;
+    padding:20px;
+    border-radius:15px;
+    box-shadow:0 0 10px rgba(0,0,0,.2);
+}
+
+img{
+    display:block;
+    margin:auto;
+    width:250px;
+    border-radius:10px;
+}
+
+h1,h2{
+    text-align:center;
+}
+
+button{
+    display:block;
+    margin:20px auto;
+    padding:12px 24px;
+    border:none;
+    border-radius:8px;
+    background:#ffd93d;
+    cursor:pointer;
+    font-size:16px;
+}
+
+button:hover{
+    background:#ffbf00;
+}
+
+footer{
+    text-align:center;
+    padding:15px;
+    background:#ffd93d;
+    margin-top:30px;
+}
+</style>
+
 </head>
 <body>
 
-  <header>
-    <h1>🧽 Blog do Bob Esponja</h1>
+<header>
+    <h1>🧽 Bob Esponja</h1>
     <p>Bem-vindo à Fenda do Biquíni!</p>
-  </header>
+</header>
 
-  <main>
+<main>
 
-    <img src="https://upload.wikimedia.org/wikipedia/en/3/3b/SpongeBob_SquarePants_character.svg" alt="Bob Esponja">
+<img src="https://upload.wikimedia.org/wikipedia/en/3/3b/SpongeBob_SquarePants_character.svg" alt="Bob Esponja">
 
-    <section>
-      <h2>Quem é o Bob Esponja?</h2>
-      <p>
-        Bob Esponja Calça Quadrada é uma esponja-do-mar muito divertida que mora
-        em um abacaxi no fundo do oceano, na Fenda do Biquíni. Ele trabalha no
-        Siri Cascudo fazendo os famosos hambúrgueres de siri.
-      </p>
-    </section>
+<h2>Quem é o Bob Esponja?</h2>
 
-    <section>
-      <h2>Melhores amigos</h2>
-      <ul>
-        <li>⭐ Patrick Estrela</li>
-        <li>🐿️ Sandy Bochechas</li>
-        <li>🐌 Gary, o caracol</li>
-      </ul>
-    </section>
+<p>
+Bob Esponja Calça Quadrada mora em um abacaxi no fundo do mar e trabalha no Siri Cascudo preparando hambúrgueres de siri. Ele é muito alegre e está sempre vivendo aventuras com Patrick, Sandy e Gary.
+</p>
 
-    <section>
-      <h2>Personagens</h2>
-      <ul>
-        <li>🦀 Seu Sirigueijo</li>
-        <li>🦑 Lula Molusco</li>
-        <li>🦠 Plankton</li>
-      </ul>
-    </section>
+<h2>Personagens</h2>
 
-    <section>
-      <h2>Curiosidade</h2>
-      <p>
-        O desenho estreou em 1999 e é um dos desenhos animados mais famosos do
-        mundo, conquistando crianças e adultos.
-      </p>
-    </section>
+<ul>
+<li>⭐ Patrick Estrela</li>
+<li>🦑 Lula Molusco</li>
+<li>🦀 Seu Sirigueijo</li>
+<li>🐿️ Sandy Bochechas</li>
+<li>🐌 Gary</li>
+</ul>
 
-  </main>
+<button onclick="mensagem()">Clique aqui</button>
 
-  <footer>
-    <p>© 2026 - Blog do Bob Esponja 🧽</p>
-  </footer>
+</main>
 
-  <script src="script.js"></script>
+<footer>
+© 2026 - Site do Bob Esponja
+</footer>
+
+<script>
+function mensagem(){
+    alert("Estou pronto! Estou pronto! 🧽");
+}
+</script>
 
 </body>
 </html>
