@@ -3,94 +3,62 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Blog sobre ETs</title>
-
-  <style>
-    body{
-      margin:0;
-      font-family:Arial, sans-serif;
-      background:#0b1020;
-      color:#fff;
-    }
-
-    header{
-      background:#1b2a4e;
-      text-align:center;
-      padding:30px;
-    }
-
-    h1{
-      margin:0;
-      color:#7df9ff;
-    }
-
-    main{
-      max-width:800px;
-      margin:30px auto;
-      padding:20px;
-      background:#16213e;
-      border-radius:12px;
-      box-shadow:0 0 15px rgba(0,0,0,.4);
-    }
-
-    img{
-      width:100%;
-      border-radius:10px;
-    }
-
-    h2{
-      color:#7df9ff;
-    }
-
-    p{
-      line-height:1.7;
-    }
-
-    footer{
-      text-align:center;
-      padding:20px;
-      background:#1b2a4e;
-      margin-top:30px;
-    }
-  </style>
+  <title>Blog do Bob Esponja</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<header>
-  <h1>👽 Blog sobre ETs</h1>
-  <p>Explorando os mistérios do universo</p>
-</header>
+  <header>
+    <h1>🧽 Blog do Bob Esponja</h1>
+    <p>Bem-vindo à Fenda do Biquíni!</p>
+  </header>
 
-<main>
-  <img src="https://images.unsplash.com/photo-1462331940025-496dfbfc7564?w=1000" alt="Espaço">
+  <main>
 
-  <h2>O que são ETs?</h2>
+    <img src="https://upload.wikimedia.org/wikipedia/en/3/3b/SpongeBob_SquarePants_character.svg" alt="Bob Esponja">
 
-  <p>
-    ET significa <strong>Extraterrestre</strong>, ou seja, uma possível forma de vida
-    que existe fora do planeta Terra. Até hoje não há provas de que eles existam,
-    mas cientistas continuam pesquisando o universo em busca de sinais de vida.
-  </p>
+    <section>
+      <h2>Quem é o Bob Esponja?</h2>
+      <p>
+        Bob Esponja Calça Quadrada é uma esponja-do-mar muito divertida que mora
+        em um abacaxi no fundo do oceano, na Fenda do Biquíni. Ele trabalha no
+        Siri Cascudo fazendo os famosos hambúrgueres de siri.
+      </p>
+    </section>
 
-  <h2>Existe vida fora da Terra?</h2>
+    <section>
+      <h2>Melhores amigos</h2>
+      <ul>
+        <li>⭐ Patrick Estrela</li>
+        <li>🐿️ Sandy Bochechas</li>
+        <li>🐌 Gary, o caracol</li>
+      </ul>
+    </section>
 
-  <p>
-    O universo possui bilhões de galáxias e trilhões de planetas. Por isso,
-    muitos pesquisadores acreditam que pode existir vida em algum lugar,
-    embora ainda não tenha sido encontrada.
-  </p>
+    <section>
+      <h2>Personagens</h2>
+      <ul>
+        <li>🦀 Seu Sirigueijo</li>
+        <li>🦑 Lula Molusco</li>
+        <li>🦠 Plankton</li>
+      </ul>
+    </section>
 
-  <h2>Curiosidade</h2>
+    <section>
+      <h2>Curiosidade</h2>
+      <p>
+        O desenho estreou em 1999 e é um dos desenhos animados mais famosos do
+        mundo, conquistando crianças e adultos.
+      </p>
+    </section>
 
-  <p>
-    Um OVNI significa "Objeto Voador Não Identificado". Isso não quer dizer
-    que seja uma nave alienígena; apenas que o objeto ainda não foi identificado.
-  </p>
-</main>
+  </main>
 
-<footer>
-  © 2026 - Blog sobre ETs 👽
-</footer>
+  <footer>
+    <p>© 2026 - Blog do Bob Esponja 🧽</p>
+  </footer>
+
+  <script src="script.js"></script>
 
 </body>
 </html>
