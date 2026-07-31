@@ -3,96 +3,66 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<title>Aventura no Fundo do Mar</title>
+<title>Blog do Bob Esponja</title>
 
 <style>
-*{
-    box-sizing:border-box;
-    margin:0;
-    padding:0;
-    font-family:Arial, sans-serif;
-}
-
 body{
-    min-height:100vh;
-    background:linear-gradient(#27c7ff,#0066cc);
-    overflow-x:hidden;
+    margin:0;
+    font-family:Arial, sans-serif;
+    background:linear-gradient(#00cfff,#0066aa);
     color:white;
 }
 
-/* bolhas */
-.bolha{
-    position:fixed;
-    bottom:-100px;
-    width:40px;
-    height:40px;
-    background:rgba(255,255,255,.3);
-    border-radius:50%;
-    animation:subir 8s infinite;
-}
-
-@keyframes subir{
-    from{
-        transform:translateY(0);
-    }
-    to{
-        transform:translateY(-110vh);
-    }
-}
-
 header{
-    text-align:center;
-    padding:40px;
-    background:#ffd83d;
+    background:#ffd900;
     color:#333;
+    text-align:center;
+    padding:30px;
 }
 
 header h1{
     font-size:45px;
 }
 
-main{
+.container{
     width:90%;
     max-width:900px;
     margin:30px auto;
-    background:rgba(255,255,255,.15);
-    backdrop-filter:blur(10px);
-    padding:30px;
-    border-radius:25px;
 }
 
-.personagem{
-    width:200px;
-    height:200px;
+.card{
+    background:white;
+    color:#333;
+    padding:25px;
+    margin:20px 0;
+    border-radius:20px;
+    box-shadow:0 8px 15px #004466;
+}
+
+.bob{
+    width:180px;
+    height:180px;
+    background:#ffe600;
+    border-radius:30px;
     margin:auto;
-    background:#ffe85c;
-    border-radius:45%;
-    border:8px solid #e8b800;
     display:flex;
-    align-items:center;
     justify-content:center;
-    font-size:90px;
+    align-items:center;
+    font-size:80px;
+    border:8px solid #e5b900;
 }
 
 h2{
-    margin:25px 0 10px;
-    color:#fff700;
-}
-
-p,li{
-    font-size:18px;
-    line-height:1.6;
+    color:#0077aa;
 }
 
 button{
-    margin-top:25px;
-    padding:15px 30px;
-    border:none;
+    background:#ffd900;
+    border:0;
+    padding:15px 25px;
     border-radius:20px;
-    background:#ffdb00;
-    font-size:18px;
     cursor:pointer;
+    font-size:18px;
 }
 
 button:hover{
@@ -100,9 +70,9 @@ button:hover{
 }
 
 footer{
+    background:#003d66;
     text-align:center;
     padding:20px;
-    background:#004c99;
 }
 </style>
 
@@ -110,199 +80,60 @@ footer{
 
 <body>
 
-<div class="bolha" style="left:10%;animation-delay:1s"></div>
-<div class="bolha" style="left:40%;animation-delay:3s"></div>
-<div class="bolha" style="left:70%;animation-delay:5s"></div>
-
 <header>
-<h1>🌊 Aventuras no Fundo do Mar</h1>
-<p>Conheça o mundo de Lilo, a esponjinha aventureira!</p>
+<h1>🧽 Blog do Bob Esponja</h1>
+<p>Aventuras na Fenda do Biquíni 🌊</p>
 </header>
 
-<main>
+<div class="container">
 
-<div class="personagem">
-🧽
-</div>
+<div class="card">
+<div class="bob">🧽</div>
 
-<h2>Quem é Lilo?</h2>
-
-<p>
-Lilo é uma pequena esponjinha marinha cheia de energia.
-Ela vive em uma cidade submarina e passa seus dias explorando
-o oceano e fazendo novos amigos.
-</p>
-
-<h2>Amigos do oceano</h2>
-
-<ul>
-<li>⭐ Estrelinho - seu melhor amigo divertido</li>
-<li>🐚 Coralina - uma criatura inteligente do mar</li>
-<li>🐠 Peixinho Azul - sempre acompanha as aventuras</li>
-</ul>
-
-<button onclick="alert('🌊 Uma nova aventura começou!')">
-Explorar o oceano
-</button>
-
-</main>
-
-<footer>
-© 2026 - Aventuras no Fundo do Mar
-</footer>
-
-</body>
-</html><!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<title>Aventura no Fundo do Mar</title>
-
-<style>
-*{
-    box-sizing:border-box;
-    margin:0;
-    padding:0;
-    font-family:Arial, sans-serif;
-}
-
-body{
-    min-height:100vh;
-    background:linear-gradient(#27c7ff,#0066cc);
-    overflow-x:hidden;
-    color:white;
-}
-
-/* bolhas */
-.bolha{
-    position:fixed;
-    bottom:-100px;
-    width:40px;
-    height:40px;
-    background:rgba(255,255,255,.3);
-    border-radius:50%;
-    animation:subir 8s infinite;
-}
-
-@keyframes subir{
-    from{
-        transform:translateY(0);
-    }
-    to{
-        transform:translateY(-110vh);
-    }
-}
-
-header{
-    text-align:center;
-    padding:40px;
-    background:#ffd83d;
-    color:#333;
-}
-
-header h1{
-    font-size:45px;
-}
-
-main{
-    width:90%;
-    max-width:900px;
-    margin:30px auto;
-    background:rgba(255,255,255,.15);
-    backdrop-filter:blur(10px);
-    padding:30px;
-    border-radius:25px;
-}
-
-.personagem{
-    width:200px;
-    height:200px;
-    margin:auto;
-    background:#ffe85c;
-    border-radius:45%;
-    border:8px solid #e8b800;
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    font-size:90px;
-}
-
-h2{
-    margin:25px 0 10px;
-    color:#fff700;
-}
-
-p,li{
-    font-size:18px;
-    line-height:1.6;
-}
-
-button{
-    margin-top:25px;
-    padding:15px 30px;
-    border:none;
-    border-radius:20px;
-    background:#ffdb00;
-    font-size:18px;
-    cursor:pointer;
-}
-
-button:hover{
-    transform:scale(1.1);
-}
-
-footer{
-    text-align:center;
-    padding:20px;
-    background:#004c99;
-}
-</style>
-
-</head>
-
-<body>
-
-<div class="bolha" style="left:10%;animation-delay:1s"></div>
-<div class="bolha" style="left:40%;animation-delay:3s"></div>
-<div class="bolha" style="left:70%;animation-delay:5s"></div>
-
-<header>
-<h1>🌊 Aventuras no Fundo do Mar</h1>
-<p>Conheça o mundo de Lilo, a esponjinha aventureira!</p>
-</header>
-
-<main>
-
-<div class="personagem">
-🧽
-</div>
-
-<h2>Quem é Lilo?</h2>
+<h2>Quem é Bob Esponja?</h2>
 
 <p>
-Lilo é uma pequena esponjinha marinha cheia de energia.
-Ela vive em uma cidade submarina e passa seus dias explorando
-o oceano e fazendo novos amigos.
+Bob Esponja é uma esponja do mar muito alegre que vive no fundo do oceano.
+Ele trabalha no restaurante Siri Cascudo e vive grandes aventuras com seus amigos.
 </p>
 
-<h2>Amigos do oceano</h2>
+</div>
+
+
+<div class="card">
+
+<h2>⭐ Amigos</h2>
 
 <ul>
-<li>⭐ Estrelinho - seu melhor amigo divertido</li>
-<li>🐚 Coralina - uma criatura inteligente do mar</li>
-<li>🐠 Peixinho Azul - sempre acompanha as aventuras</li>
+<li>Patrick Estrela</li>
+<li>Sandy Bochechas</li>
+<li>Lula Molusco</li>
+<li>Seu Sirigueijo</li>
+<li>Gary</li>
 </ul>
 
-<button onclick="alert('🌊 Uma nova aventura começou!')">
-Explorar o oceano
+</div>
+
+
+<div class="card">
+
+<h2>🍔 Curiosidades</h2>
+
+<p>
+Ele mora em um abacaxi, ama fazer hambúrgueres de siri e está sempre tentando
+deixar todos ao seu redor felizes.
+</p>
+
+<button onclick="alert('Estou pronto! 🧽🌊')">
+Clique aqui
 </button>
 
-</main>
+</div>
+
+</div>
 
 <footer>
-© 2026 - Aventuras no Fundo do Mar
+© 2026 - Blog do Bob Esponja
 </footer>
 
 </body>
